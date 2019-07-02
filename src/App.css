@@ -21,7 +21,33 @@
 .App-link {
   color: #61dafb;
 }
-
+.map {
+  display: flex;
+  padding: 2rem;
+}
+.mapText {
+  flex: 1;
+  text-align: left;
+}
+.mapGroup h5 {
+  color: red;
+}
+.mapGroup path {
+  pointer-events: all;
+}
+.list-group-item {
+  cursor: pointer;
+  fill: #db5a6b;
+}
+.selected {
+  fill: #5adbca;
+}
+.list-group-item:hover {
+  fill: #5adbca;
+}
+.state {
+  fill: #db4646;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
